@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 QuickTask -  Modern Project Management App  
 
-## Getting Started
 
-First, run the development server:
+A full-stack **Kanban-based project management application** built with Next.js and Supabase, designed to help teams stay organized and productive. QuickTask provides a seamless experience with authentication, dashboards, project/task management, and progress tracking — all with support for dark mode & light mode.
 
+---
+
+## ✨ Features  
+
+### 🔐 Authentication  
+- Sign in & sign up with **Email, Google, and GitHub**  
+- Secure authentication powered by **Supabase**  
+- Session persistence with auto-refresh  
+
+### 📊 Dashboard  
+- **Kanban Board** with drag-and-drop task management  
+- **Customizable columns/stages** (Yet to Start, In Progress, Completed)  
+- **Progress Chart** with real-time updates  
+- **CRUD operations** for tasks and projects  
+- Assign **priority levels** for tasks within each project  
+
+### 👤 User Profile  
+- Add/edit personal details: **Name, Date of Birth**  
+- Upload and update **profile photo**  
+- Track personal activity and project participation  
+
+### 🎨 UI/UX  
+- **Dark Mode & Light Mode** toggle across all pages  
+- Responsive design for **desktop and mobile**  
+- Clean, modern interface with smooth animations  
+
+### 📑 Additional Pages  
+- **Home Page** with app overview  
+- **Privacy Policy** page  
+- **Terms & Conditions** page  
+- **Contact Page** with form integration  
+
+---
+
+## 🖼️ Screenshots  
+
+| Feature              | Screenshot |
+|-----------------------|------------|
+| 🏠 Home Page         | ![Home](./screenshots/home.PNG) |
+| 🔑 Sign In           | ![Auth](./screenshots/sign%20in.PNG ) |
+| 🔐 Sign Up           | ![Auth](./screenshots/sign%20up.PNG ) |
+| 📊 Dashboard         | ![Dashboard](./screenshots/dashboard%201.png) |
+| 👤 Profile Page      | ![Profile](./screenshots/profile.PNG) |
+| 📑 Privacy Policy    | ![Privacy Policy](./screenshots/privacy.png) |
+| 📈 Terms & Conditions| ![Terms](./screenshots/terms.png) |
+
+
+---
+
+## 🚀 Tech Stack  
+
+
+## 🚀 Tech Stack
+
+### 🎨 Frontend
+- **Next.js 14** – Modern React framework  
+- **TypeScript** – Strongly typed development  
+- **Tailwind CSS + ShadCN UI** – Styling & UI components  
+- **Framer Motion** – Smooth animations  
+- **Recharts** | Progress tracking charts
+
+### 🖥 Backend
+- **Supabase** – Database, authentication & storage  
+- **PostgreSQL** – Underlying database (via Supabase)  
+
+### ⚡ Other
+- **Vercel** – Deployment & hosting  
+- **Lucide Icons** – Modern icons  
+
+---
+
+## 📋 Prerequisites  
+
+- **Node.js** (v18 or higher)  
+- **Supabase Account** (for Auth + DB)  
+- **Git** (for version control)  
+
+---
+
+## ⚙️ Installation  
+
+1. **Clone the Repository**  
+```bash
+git clone https://github.com/yourusername/quicktask.git
+cd quicktask
+
+2. **Install Dependencies**
+```bash
+npm install
+
+3.**Configure Environment Variables**
+Create a .env.local file in the root directory:
+```bash
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4.**Run the Development Server**
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📱 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔑 Sign Up / Login — via Email, Google, or GitHub
 
-## Learn More
+🗂 Dashboard → Access Kanban Board + Progress Chart
 
-To learn more about Next.js, take a look at the following resources:
+🛠 Manage Projects — Create, edit, and delete projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Tasks — Add tasks with priorities, drag & drop across stages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📊 Track Progress — Real-time chart updates
 
-## Deploy on Vercel
+👤 Profile — Update name, DOB, and upload profile picture
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌙 Theme — Switch between Dark / Light mode
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔐 Security Features
+
+✅ Secure authentication via Supabase
+
+🔄 Session persistence & refresh tokens
+
+🚀 Role-based access to features (future scope)
+
+🌐 Deployment
+
+QuickTask is deployed on Vercel:
+👉 https://quicktask-nu.vercel.app

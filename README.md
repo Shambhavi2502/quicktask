@@ -83,7 +83,7 @@ A full-stack **Kanban-based project management application** built with Next.js 
 
 1.**Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/quicktask.git
+git clone https://github.com/Shambhavi2502/quicktask.git
 cd quicktask
 ```
 2.**Install Dependencies**

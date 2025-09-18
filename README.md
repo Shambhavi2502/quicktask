@@ -54,15 +54,12 @@ A full-stack **Kanban-based project management application** built with Next.js 
 
 ## 🚀 Tech Stack  
 
-
-## 🚀 Tech Stack
-
 ### 🎨 Frontend
 - **Next.js 14** – Modern React framework  
 - **TypeScript** – Strongly typed development  
 - **Tailwind CSS + ShadCN UI** – Styling & UI components  
 - **Framer Motion** – Smooth animations  
-- **Recharts** | Progress tracking charts
+- **Recharts** – Progress tracking charts
 
 ### 🖥 Backend
 - **Supabase** – Database, authentication & storage  
@@ -84,51 +81,49 @@ A full-stack **Kanban-based project management application** built with Next.js 
 
 ## ⚙️ Installation  
 
-1. **Clone the Repository**  
+1.**Clone the Repository**  
 ```bash
 git clone https://github.com/yourusername/quicktask.git
 cd quicktask
-
-2. **Install Dependencies**
+```
+2.**Install Dependencies**
 ```bash
 npm install
-
+```
 3.**Configure Environment Variables**
 Create a .env.local file in the root directory:
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-
+```
 4.**Run the Development Server**
 ```bash
 npm run dev
+```
+---
 
+## 📱 Usage
 
-📱 Usage
+- 🔑 **Sign Up / Login** — via Email, Google, or GitHub
+- 🗂 **Dashboard** - Access Kanban Board + Progress Chart
+- 🛠 **Manage Projects** — Create, edit, and delete projects
+- ✅ **Tasks** — Add tasks with priorities, drag & drop across stages
+- 📊 **Track Progress** — Real-time chart updates
+- 👤 **Profile** — Update name, DOB, and upload profile picture
+- 🌙 **Theme** — Switch between Dark / Light mode
 
-🔑 Sign Up / Login — via Email, Google, or GitHub
+---
 
-🗂 Dashboard → Access Kanban Board + Progress Chart
+## 🔐 Security Features
 
-🛠 Manage Projects — Create, edit, and delete projects
+- ✅ Secure authentication via Supabase
+- 🔄 Session persistence & refresh tokens
 
-✅ Tasks — Add tasks with priorities, drag & drop across stages
+---
 
-📊 Track Progress — Real-time chart updates
-
-👤 Profile — Update name, DOB, and upload profile picture
-
-🌙 Theme — Switch between Dark / Light mode
-
-🔐 Security Features
-
-✅ Secure authentication via Supabase
-
-🔄 Session persistence & refresh tokens
-
-🚀 Role-based access to features (future scope)
-
-🌐 Deployment
+## 🌐 Deployment
 
 QuickTask is deployed on Vercel:
 👉 https://quicktask-nu.vercel.app
+
+----
